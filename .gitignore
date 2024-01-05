@@ -1,3 +1,8 @@
+thumbs.db 
+DS_Store
+.env
+.vscode
+
 # Logs
 logs
 *.log
