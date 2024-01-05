@@ -1,17 +1,23 @@
-[
+const { Comment } = require('.Develop/models');
+
+const commentData = [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    comment_text: "I just learned about this in class!",
+    post_id: 3,
+    user_id: 1
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    comment_text: "I really loved learning about ORMs, it's really simplified the way I create queries in SQL",
+    post_id: 1,
+    user_id: 4
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
-  }
-]
+    comment_text: "There's a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system.",
+    post_id: 4,
+    user_id: 2
+  },
+];
+
+const seedComments = () => Comment.bulkCreate(commentData);
+
+module.exports = seedComments;
