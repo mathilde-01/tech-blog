@@ -1,0 +1,23 @@
+{{! post template }}
+{{> post-info post}}
+
+{{! If user is logged in, block will be rendered }}
+{{#if loggedIn}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">Add comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{! comment template }}
+{{> comments post.comments}}
+
+{{! If user is logged in, comments will be handled }}
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
