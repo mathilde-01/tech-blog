@@ -12,7 +12,7 @@
   
   a {
     text-decoration: none;
-    color: rgb(189, 183, 183);
+    color: #a8c8f0;
     font-weight: bold;
     transition: color .1s;
   }
@@ -117,7 +117,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #a8c8f0;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
