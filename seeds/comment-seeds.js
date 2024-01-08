@@ -9,11 +9,11 @@ const commentData = [
   {
     comment_text: "I really loved learning about ORMs, it's really simplified the way I create queries in SQL",
     post_id: 1,
-    user_id: 4
+    user_id: 3
   },
   {
     comment_text: "There's a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system.",
-    post_id: 4,
+    post_id: 2,
     user_id: 2
   },
 ];
