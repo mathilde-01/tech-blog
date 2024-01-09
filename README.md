@@ -44,3 +44,4 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 
 ## Credits
+[Bootcampspot.com](https://bootcampspot.instructure.com/courses/4347/assignments/62238?module_item_id=1082080)
